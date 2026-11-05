@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Trouver les résultats contaminés par un appel invalide', 'en': 'Find results contaminated by an invalid tool call', 'es': 'Encontrar resultados contaminados por una llamada inválida'}

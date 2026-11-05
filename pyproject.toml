@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tool-result-dependency-cut"
+version = "0.1.0a1"
+description = "FR: Trouver les résultats contaminés par un appel invalide | EN: Find results contaminated by an invalid tool call | ES: Encontrar resultados contaminados por una llamada inválida"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+tool-result-dependency-cut = "tool_result_dependency_cut.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["tool_result_dependency_cut*"]

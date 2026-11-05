@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "fetch",
+      "status": "invalid",
+      "depends_on": []
+    },
+    {
+      "id": "quote",
+      "status": "valid",
+      "depends_on": [
+        "fetch"
+      ]
+    },
+    {
+      "id": "format",
+      "status": "valid",
+      "depends_on": [
+        "quote"
+      ]
+    },
+    {
+      "id": "other",
+      "status": "valid",
+      "depends_on": []
+    }
+  ]
+}
